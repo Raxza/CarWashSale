@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarWashSale.Core.Models.DropDownModels
+namespace CarWashSale.Core.Models.DropdownModels
 {
-    internal class CurrencyDropDownResultModel
+    internal class EmployeeDropdownResultModel
     {
     }
 }
