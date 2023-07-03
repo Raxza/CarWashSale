@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarWashSale.Web", "CarWashSale\CarWashSale.Web.csproj", "{1FD4FF28-B3E5-43E8-BF21-DD709F9E0C9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Core", "1-Core", "{3479D348-4593-45BC-ADA7-EF38A50F3F0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Utility", "2-Utility", "{5052EF83-144D-4D90-9937-A5152A38F829}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Service", "3-Service", "{692C7AC4-A075-4A42-9282-8443459E752F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Data", "4-Data", "{50D3EE7B-171D-425A-A511-7BF39663CD70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Presentation", "5-Presentation", "{BD2B4609-8785-4F1B-BF9F-B60C7169910C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarWashSale.Core", "CarWashSale.Core\CarWashSale.Core.csproj", "{66D6BAB6-19BB-49EA-9B23-83FFDCF091F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarWashSale.Utility", "CarWashSale.Utility\CarWashSale.Utility.csproj", "{8B454766-D6D4-4C1D-B60D-9808374EF4FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarWashSale.Utility.Interface", "CarWashSale.Utility.Interface\CarWashSale.Utility.Interface.csproj", "{87F87227-DE0A-409C-9409-4B659D670E4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarWashSale.Service", "CarWashSale.Service\CarWashSale.Service.csproj", "{A42FAC68-3C9C-436F-92C5-9D155F89CBD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarWashSale.Service.Interface", "CarWashSale.Service.Interface\CarWashSale.Service.Interface.csproj", "{0194AFBF-5BC3-4A55-838A-1297CCBC2C57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarWashSale.Data", "CarWashSale.Data\CarWashSale.Data.csproj", "{3F352486-358A-4739-8D67-481C71800C92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarWashSale.Data.Interface", "CarWashSale.Data.Interface\CarWashSale.Data.Interface.csproj", "{4981C825-33F3-4AAC-9E8B-8CCF1904FFFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FD4FF28-B3E5-43E8-BF21-DD709F9E0C9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FD4FF28-B3E5-43E8-BF21-DD709F9E0C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FD4FF28-B3E5-43E8-BF21-DD709F9E0C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FD4FF28-B3E5-43E8-BF21-DD709F9E0C9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66D6BAB6-19BB-49EA-9B23-83FFDCF091F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D6BAB6-19BB-49EA-9B23-83FFDCF091F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D6BAB6-19BB-49EA-9B23-83FFDCF091F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D6BAB6-19BB-49EA-9B23-83FFDCF091F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B454766-D6D4-4C1D-B60D-9808374EF4FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B454766-D6D4-4C1D-B60D-9808374EF4FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B454766-D6D4-4C1D-B60D-9808374EF4FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B454766-D6D4-4C1D-B60D-9808374EF4FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87F87227-DE0A-409C-9409-4B659D670E4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87F87227-DE0A-409C-9409-4B659D670E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87F87227-DE0A-409C-9409-4B659D670E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87F87227-DE0A-409C-9409-4B659D670E4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A42FAC68-3C9C-436F-92C5-9D155F89CBD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A42FAC68-3C9C-436F-92C5-9D155F89CBD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A42FAC68-3C9C-436F-92C5-9D155F89CBD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A42FAC68-3C9C-436F-92C5-9D155F89CBD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0194AFBF-5BC3-4A55-838A-1297CCBC2C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0194AFBF-5BC3-4A55-838A-1297CCBC2C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0194AFBF-5BC3-4A55-838A-1297CCBC2C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0194AFBF-5BC3-4A55-838A-1297CCBC2C57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F352486-358A-4739-8D67-481C71800C92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F352486-358A-4739-8D67-481C71800C92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F352486-358A-4739-8D67-481C71800C92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F352486-358A-4739-8D67-481C71800C92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4981C825-33F3-4AAC-9E8B-8CCF1904FFFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4981C825-33F3-4AAC-9E8B-8CCF1904FFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4981C825-33F3-4AAC-9E8B-8CCF1904FFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4981C825-33F3-4AAC-9E8B-8CCF1904FFFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1FD4FF28-B3E5-43E8-BF21-DD709F9E0C9C} = {BD2B4609-8785-4F1B-BF9F-B60C7169910C}
+		{66D6BAB6-19BB-49EA-9B23-83FFDCF091F3} = {3479D348-4593-45BC-ADA7-EF38A50F3F0E}
+		{8B454766-D6D4-4C1D-B60D-9808374EF4FE} = {5052EF83-144D-4D90-9937-A5152A38F829}
+		{87F87227-DE0A-409C-9409-4B659D670E4E} = {5052EF83-144D-4D90-9937-A5152A38F829}
+		{A42FAC68-3C9C-436F-92C5-9D155F89CBD6} = {692C7AC4-A075-4A42-9282-8443459E752F}
+		{0194AFBF-5BC3-4A55-838A-1297CCBC2C57} = {692C7AC4-A075-4A42-9282-8443459E752F}
+		{3F352486-358A-4739-8D67-481C71800C92} = {50D3EE7B-171D-425A-A511-7BF39663CD70}
+		{4981C825-33F3-4AAC-9E8B-8CCF1904FFFE} = {50D3EE7B-171D-425A-A511-7BF39663CD70}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7197E959-C82E-4395-9C88-A664C233F327}
+	EndGlobalSection
+EndGlobal
